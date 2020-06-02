@@ -1,0 +1,14 @@
+# Ignore FDK localstore files and metrics
+.fdk
+
+# Ignore JSON report files
+.report.json
+
+# Ignore Coverage Files
+coverage
+
+# Ignore NPM Packages
+node_modules
+
+# Ignore Distributed Copies
+dist

@@ -24,5 +24,5 @@ This application will allow the creation of a OneNote page from a freshservice m
 - [x] Establish source control using remote repository (Gitlab or Github)
 - [x] Make initial commit and push changes to both local and remote repos
 - [x] Update README file
-- [ ] Establish Git-workflow for application development (use a dev branch)
+- [x] Establish Git-workflow for application development (use a dev branch)
 - [ ] Build first working version of the application (v.1.0)
