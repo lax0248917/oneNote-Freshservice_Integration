@@ -26,3 +26,4 @@ This application will allow the creation of a OneNote page from a freshservice m
 - [x] Update README file
 - [x] Establish Git-workflow for application development (use a dev branch)
 - [ ] Build first working version of the application (v.1.0)
+- [x] Source control has been changed to using Azure DevOps Repos
