@@ -1,0 +1,10 @@
+{
+  "client_id": "686c4e86-9744-4b17-a68b-edfd6017e13e",
+  "client_secret": "Dw82_1H~TJjBPZ8Tvi_AL65h.w14MNKTZM",
+  "authorize_url": "https://login.microsoftonline.com/e03a7ecd-8896-4514-8acd-7f0355a8d073/oauth2//v2.0/authorize/",
+  "token_url": "https://login.microsoftonline.com/e03a7ecd-8896-4514-8acd-7f0355a8d073/oauth2/v2.0/token/",
+  "options": {
+    "scope": "Notes.ReadWrite.All"
+  },
+  "token_type": "account"
+}

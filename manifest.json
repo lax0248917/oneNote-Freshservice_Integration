@@ -3,11 +3,14 @@
   "product": {
     "freshservice": {
       "location": {
-        "ticket_top_navigation": {
+        "ticket_sidebar": {
           "url": "template.html",
           "icon": "icon.svg"
         }
       }
     }
-  }
+  },
+  "whitelisted-domains": [
+    "https://graph.microsoft.com/v1.0/me/onenote/pages?sectionName=Stuff"
+  ]
 }
