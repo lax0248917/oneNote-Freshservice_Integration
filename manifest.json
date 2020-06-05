@@ -11,6 +11,6 @@
     }
   },
   "whitelisted-domains": [
-    "https://graph.microsoft.com/v1.0/me/onenote/pages?sectionName=Stuff"
+    "https://graph.microsoft.com/v1.0/me/onenote/pages"
   ]
 }

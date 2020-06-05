@@ -25,6 +25,5 @@ This application will allow the creation of a OneNote page from a freshservice m
 - [x] Make initial commit and push changes to both local and remote repos
 - [x] Update README file
 - [x] Establish Git-workflow for application development (use a dev branch)
-- [ ] Build first working version of the application (v.1.0)
-- [x] Source control has been changed to using Azure DevOps Repos
-- [x] Successfully cloned repo to local machine
+- [x] Build first working version of the application (v.1.0)
+- [x] Submit Project to CoDiv Hackathon.io

@@ -9,7 +9,6 @@ $(document).ready(function () {
 // Function to get and handle data from modal
 function getModalData() {
   $('#saveBtn').click(function () {
-    // let textData = $('#textArea').val();
     let textData = document.getElementById('textArea').value
     console.log(textData);
 
@@ -22,7 +21,7 @@ function getModalData() {
       isOAuth: true,
       body: textData
     };
-    let url = 'https://graph.microsoft.com/v1.0/me/onenote/pages?sectionName=Stuff';
+    let url = 'https://graph.microsoft.com/v1.0/me/onenote/pages';
     client.request.post(url, options)
       .then(
         function (data) {
