@@ -34,31 +34,8 @@ function getModalData() {
           showNotification('error', 'Page was unable to be created')
         }
       );
-
-    // headers = {
-    //     Authorization: "bearer <%= access_token %>"
-    //   },
-    //   reqData = {
-    //     headers: headers,
-    //     isOAuth: true
-    //   };
-    // url = 'https://graph.microsoft.com/v1.0/me/onenote/pages?sectionName=Stuff';
-    // client.request.get(url, reqData)
-    //   .then(function (data) {
-    //     console.log(data);
-    //     let response = JSON.parse(data.response)["value"];
-    //     console.log(response);
-    //   })
-    //   .catch(function (error) {
-    //     console.log(error);
-    //   })
   });
 };
-
-// Function to send note data to OneNote
-// function sendData() {
-
-// }
 
 // Function to handle notifications
 function showNotification(status, message) {

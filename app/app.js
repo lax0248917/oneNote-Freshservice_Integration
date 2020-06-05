@@ -21,20 +21,6 @@ function showModal() {
     console.log(error);
   });
 }
-
-// Function to get and handle data from modal
-// function getModalData() {
-//   $('#saveBtn').click(function () {
-//     client.instance.send({
-//       message: {name: "Zachary King"}
-//     });
-//     client.instance.receive(function (event) {
-//       let data = event.helper.getData();
-//       console.log(data);
-//     })
-//   })
-// };
-
 // Function to handle all notifications (error, success, etc.)
 function showNotification(type, title, message) {
   client.interface.trigger('showNotify', {
